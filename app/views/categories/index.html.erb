@@ -2,6 +2,14 @@
 
 <h1>Categories</h1>
 
+<h2>
+  <% @categories.each do |list|%>
+  <%= list.name %>
+
+  <% end %>
+
+</h2>
+
 <table>
   <thead>
     <tr>
